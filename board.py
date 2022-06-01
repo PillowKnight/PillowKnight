@@ -71,7 +71,7 @@ def generate_embed(url):
 
 
 def notify():
-    hook = Webhook(os.environ["DISCORD_WEBHOOK_URL"])
+    hook = Webhook(os.environ["https://discord.com/api/webhooks/981461049880477767/ZHTInTq-95DszcQfpz0wWsS0BQWJhUCNLGGYZv50bI14U7hOv56y3YsRNtk6XYej6u1W"])
 
     # 記事一覧を取得
     year = now.year if (now := datetime.now()).month >= 4 else now.year - 1  # 年度
